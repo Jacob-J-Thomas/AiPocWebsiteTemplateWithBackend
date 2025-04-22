@@ -6,61 +6,24 @@ A simple starter template for building React applications powered by the Intelli
 Prerequisites
 -------------
 
-*   [.NET 7 SDK](https://dotnet.microsoft.com/download)
+*   [.NET 8 SDK](https://dotnet.microsoft.com/download)
     
 *   [Node.js 16+](https://nodejs.org/)
     
-*   Intelligence Hub API URL (e.g., https://api.intelligencehub.io)
+*   A URL where an instance of the Intelligence Hub API is running (See https://github.com/appliedai-org/intelligencehub for additional information)
     
 
 Setup
 -----
+Note: This guide assumes you're using Visual Studio as you're IDE. Adjust the directions accordingly if you prefer another IDE.
 
-1.  git clone https://github.com/your-org/your-repo.gitcd your-repo
+1.  git clone https://github.com/Jacob-J-Thomas/ConversationalAIWebsite.git
     
-2.  **Configure the Intelligence Hub endpoint**
-    
-    *   Copy appsettings.Development.json.example to appsettings.Development.json in the Server folder.
+2.  Update the appsettings to align with the necessary details - I'll improve this later... Sorry. Message me at JacobJonThomas@gmail.com and I'll hurry up.
         
-    *   Set IntelligenceHub:BaseUrl to your Intelligence Hub API URL.
-        
-3.  cd ClientAppnpm installcd ../Serverdotnet restore
-    
+3.  cd ClientApp npm install (if necessary, install any dependencies here as well)
 
-Running the App
----------------
-
-*   cd ClientAppnpm startThe React dev server will launch on http://localhost:3000.
-    
-*   cd Serverdotnet runThe API will run on https://localhost:5001 by default.
-    
-
-Project Structure
------------------
-
-*   ClientApp/: React front‑end
-    
-*   Server/: ASP.NET Core back‑end
-    
-*   README.md: this file
-    
-
-Customization
--------------
-
-*   Rename project namespaces in Server/Program.cs and React app title in ClientApp/package.json.
-    
-*   Update any placeholder values in appsettings.\*.json and .env files.
-    
-
-Deployment
-----------
-
-1.  cd ClientAppnpm run build
-    
-2.  cd ../Serverdotnet publish -c Release -o ./publish
-    
-3.  Deploy contents of publish to your hosting environment (Azure, AWS, etc.).
+4. Run Visual Studio targeting PersonalPortfolio.csproj
     
 
 License
