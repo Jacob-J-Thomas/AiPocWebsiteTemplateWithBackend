@@ -1,7 +1,7 @@
 ASP.NET React Template
 ======================
 
-A simple starter template for building React applications powered by the Intelligence Hub API.
+A simple starter template for building React applications powered by the Intelligence Hub API. This project is used as the starting point for a wide variety of the applications I host under the Applied AI name. For additional details on the code behind each of those projects, please reach out to me directly at JacobJonThomas@gmail.com or jacob.thomas@applied-ai-org.com.
 
 Prerequisites
 -------------
